@@ -24,8 +24,6 @@ const Results = props => {
                 <p className="text-info">Base Experience: {res.base_experience}</p>
                 <p className="text-info">Height: {res.height} ft.</p>
                 <p className="text-info">Weight: {res.weight} lbs.</p>
-                <p className="text-info">Weight: {res.location_area_encounters} </p>
-
                 <div className="form-group-2 mt-5 text-right p-3">
                     <button type="button" className="btn btn-primary shadow border border-rounded " value="back" onClick={back}>Back</button>
                 </div>
